@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getplayersname">
+
+    <ImageView
+        android:layout_width="351dp"
+        android:layout_height="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/gmbutton" />
+
+    <EditText
+        android:id="@+id/editTextPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Player 1 Name"
+        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Player 2 Name"
+        android:layout_below="@id/editTextPlayer1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonStartGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:layout_below="@id/editTextPlayer2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

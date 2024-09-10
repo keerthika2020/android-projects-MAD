@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "368979910864",
+    "project_id": "stonepaperscissorsdb",
+    "storage_bucket": "stonepaperscissorsdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368979910864:android:0ed7f39f6efd91b589fed5",
+        "android_client_info": {
+          "package_name": "com.example.loginpage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxyuz3SdcK3UwkFreaWSf_gFLtr6GsvJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

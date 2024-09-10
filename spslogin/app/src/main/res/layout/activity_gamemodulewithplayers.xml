@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gamemodulewithplayers">
+
+
+    <TextView
+        android:id="@+id/player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="170dp"
+        android:layout_y="376dp"
+        android:text="player1"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="364dp"
+        android:text="---------------------------------------------------------------------------"
+        android:foregroundGravity="center"
+        android:textStyle="bold"
+        android:textColor="#DFCA10"
+        />
+
+    <TextView
+        android:id="@+id/player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="172dp"
+        android:layout_y="339dp"
+        android:rotation="180"
+        android:text="player2"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/s31"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_x="236dp"
+        android:layout_y="420dp"
+        android:padding="1dp"
+        android:src="@drawable/nostar" />
+
+    <ImageView
+        android:id="@+id/s21"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_x="193dp"
+        android:layout_y="420dp"
+        android:padding="1dp"
+        android:src="@drawable/nostar" />
+
+    <ImageView
+        android:id="@+id/s11"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_x="150dp"
+        android:layout_y="420dp"
+        android:padding="1dp"
+        android:src="@drawable/nostar" />
+
+    <ImageView
+        android:id="@+id/s3"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_x="150dp"
+        android:layout_y="302dp"
+        android:padding="1dp"
+        android:src="@drawable/nostar"
+        android:rotation="180"/>
+
+    <ImageView
+        android:id="@+id/s2"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_x="189dp"
+        android:layout_y="302dp"
+        android:padding="1dp"
+        android:src="@drawable/nostar"
+        android:rotation="180"/>
+
+    <ImageView
+        android:id="@+id/s1"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_x="231dp"
+        android:layout_y="303dp"
+        android:padding="1dp"
+        android:src="@drawable/nostar"
+        android:rotation="180"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/p1rock"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_x="10dp"
+        android:layout_y="772dp"
+        android:background="@drawable/gmbutton"
+        android:text="rock"
+        android:textColor="#0C0C0C"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/p1paper"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_x="140dp"
+        android:layout_y="772dp"
+        android:background="@drawable/gmbutton"
+        android:text="paper"
+        android:textColor="#0C0C0C"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/p1scissor"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_x="276dp"
+        android:layout_y="772dp"
+        android:background="@drawable/gmbutton"
+        android:text="scissor"
+        android:textColor="#0C0C0C"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/p2rock"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_x="281dp"
+        android:layout_y="7dp"
+        android:background="@drawable/gmbutton"
+        android:rotation="180"
+        android:text="rock"
+        android:textColor="#0C0C0C"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/p2paper"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_x="149dp"
+        android:layout_y="7dp"
+        android:background="@drawable/gmbutton"
+        android:rotation="180"
+        android:text="paper"
+        android:textColor="#0C0C0C"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/p2scissor"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_x="16dp"
+        android:layout_y="6dp"
+        android:background="@drawable/gmbutton"
+        android:rotation="180"
+        android:text="scissor"
+        android:textColor="#0C0C0C"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/p2rockig"
+        android:layout_width="193dp"
+        android:layout_height="186dp"
+        android:layout_x="105dp"
+        android:layout_y="90dp"
+        android:rotation="180"
+        android:src="@drawable/stoneg" />
+
+    <ImageView
+        android:id="@+id/p1paperig"
+        android:layout_width="193dp"
+        android:layout_height="186dp"
+        android:layout_x="116dp"
+        android:layout_y="517dp"
+        android:src="@drawable/paperg" />
+
+    <TextView
+        android:id="@+id/p1ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="321dp"
+        android:layout_y="460dp"
+        android:text="Ready"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/p2ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="326dp"
+        android:layout_y="215dp"
+        android:rotation="180"
+        android:text="Ready"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</AbsoluteLayout>

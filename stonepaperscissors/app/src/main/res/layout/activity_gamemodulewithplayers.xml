@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gamemodulewithplayers"
+    android:background="@drawable/transparenttheme">
+
+
+    <!-- Add these TextViews inside your existing layout -->
+
+    <TextView
+        android:id="@+id/textViewPlayer1"
+        android:layout_width="116dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="252dp"
+        android:layout_x="260dp"
+        android:layout_y="542dp"
+        android:hint="p1 name"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewPlayer2"
+        android:layout_width="116dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="56dp"
+        android:layout_x="236dp"
+        android:layout_y="138dp"
+        android:hint="p2 name"
+        android:rotation="180"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/human1"
+        android:layout_width="174dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="440dp"
+        android:layout_x="110dp"
+        android:layout_y="424dp"
+        app:srcCompat="@drawable/human1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="384dp"
+        android:layout_height="274dp"
+        android:layout_marginTop="204dp"
+        android:layout_x="-20dp"
+        android:layout_y="206dp"
+        app:srcCompat="@drawable/vs__2_" />
+
+    <ImageView
+        android:id="@+id/human2"
+        android:layout_width="154dp"
+        android:layout_height="140dp"
+        android:layout_x="114dp"
+        android:layout_y="118dp"
+        android:rotation="180"
+        app:srcCompat="@drawable/human"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_x="60dp"
+        android:layout_y="20dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:rotation="180">
+
+        <ImageView
+            android:id="@+id/Rock2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/imagebg"
+            android:elevation="12dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/rock" />
+
+        <ImageView
+            android:id="@+id/Paper2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/imagebg"
+            android:elevation="12dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/paper" />
+
+        <ImageView
+            android:id="@+id/Scissor2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/imagebg"
+            android:elevation="12dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/scissors" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="704dp"
+        android:layout_x="66dp"
+        android:layout_y="612dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/Rock"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/imagebg"
+            android:elevation="12dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/rock" />
+
+        <ImageView
+            android:id="@+id/Paper"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/imagebg"
+            android:elevation="12dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/paper" />
+
+        <ImageView
+            android:id="@+id/Scissor"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/imagebg"
+            android:elevation="12dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/scissors" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/player_score2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="332dp"
+        android:layout_x="16dp"
+        android:layout_y="164dp"
+        android:rotation="180"
+        android:text="Player2: 0"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/player_score1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="524dp"
+        android:layout_x="30dp"
+        android:layout_y="556dp"
+        android:text="Player1: 0"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</AbsoluteLayout>

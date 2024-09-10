@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="138dp"
+        android:layout_height="51dp"
+        android:text="SWEETY DESSERTS"
+        android:layout_gravity="center"/>
+
+    <TableRow
+        android:layout_width="224dp"
+        android:layout_height="103dp">
+
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="97dp"
+            android:layout_height="141dp"
+            android:src="@drawable/brownie" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="120dp"
+            android:layout_height="115dp"
+            android:text="Classic Brownie.Costs: 140 rupees"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="100dp"
+            android:layout_height="76dp"
+            android:text="Add to cart" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="305dp"
+        android:layout_height="34dp">
+
+        <ImageView
+            android:id="@+id/i2"
+            android:layout_width="30dp"
+            android:layout_height="147dp"
+            android:src="@drawable/pudding" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="120dp"
+            android:layout_height="115dp"
+            android:text="Nestle Kitkat Chocolate pudding.Cpst: 160 rupees"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="100dp"
+            android:layout_height="76dp"
+            android:text="Add to cart" />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="305dp"
+        android:layout_height="34dp">
+
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_width="173dp"
+            android:layout_height="147dp"
+            android:src="@drawable/chocolatecakemousse" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="120dp"
+            android:layout_height="115dp"
+            android:text=" soft delicious chocholate mousse Cpst: 60 rupees"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="100dp"
+            android:layout_height="76dp"
+            android:text="Add to cart" />
+
+
+    </TableRow>
+
+
+</TableLayout>
+
+

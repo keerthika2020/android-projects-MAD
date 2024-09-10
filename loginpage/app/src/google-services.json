@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577382974876",
+    "project_id": "stonepaperscissordb",
+    "storage_bucket": "stonepaperscissordb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577382974876:android:a4de25d0e83328ddf3b459",
+        "android_client_info": {
+          "package_name": "com.example.spslogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDXSFlqII9eC3ysVIKBtKZOQsrngOGntg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

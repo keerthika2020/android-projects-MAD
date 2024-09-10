@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/pinkaestheticbg">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="7dp"
+        android:text="STONE PAPER SCISSORS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#DB0F0A"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="41dp"
+        android:text="WELCOME..."
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="535dp"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="69dp"
+        android:background="@drawable/edit_text_shapes"
+        app:tintMode="src_over" />
+
+    <ImageView
+        android:id="@+id/un"
+        android:layout_width="85dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/tv2"
+        android:layout_alignEnd="@+id/tv2"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="16dp"
+        app:srcCompat="@drawable/ic_account_circle_black_24dp" />
+
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="88dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/tv2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="168dp"
+        android:text="USER NAME"
+        android:maxLength="15"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/un"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ic_person_black_24dp" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/un"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/tv3"
+        android:background="@drawable/edit_text_colored"
+        android:hint=" user name"
+        android:padding="6dp"
+        android:textColor="#E6161615"
+        />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="88dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/tv3"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="65dp"
+        android:text="PASSWORD"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i1"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="74dp"
+        android:src="@drawable/ic_lock_black_24dp" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="56dp"
+        android:layout_toRightOf="@+id/tv4"
+        android:background="@drawable/edit_text_colored"
+        android:drawableRight="@drawable/ic_visibility_off_black_24dp"
+        android:hint=" password"
+        android:inputType="textPassword"
+        android:longClickable="false"
+        android:padding="6dp"
+        android:paddingRight="10dp"
+        android:textColor="#E60F0F0E"
+       />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="70dp"
+        android:text="PLAY" />
+
+
+</RelativeLayout>

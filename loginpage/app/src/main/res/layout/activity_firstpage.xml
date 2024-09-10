@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstpage"
+    android:background="@drawable/rpsl"
+    >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="359dp"
+        android:layout_height="66dp"
+        android:layout_x="33dp"
+        android:layout_y="77dp"
+        android:background="@drawable/edit_text_colored"
+        android:fontFamily="sans-serif-medium"
+        android:text=" STONE PAPER SCISSORS"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#57FF2A"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="138dp"
+        android:layout_height="112dp"
+        android:layout_x="145dp"
+        android:layout_y="592dp"
+        android:background="@drawable/firstpagedesign"
+        android:text="LOGIN"
+        android:textSize='20dp'
+        android:textStyle="bold"
+        android:textColor="#EFF1EE"/>
+
+
+</AbsoluteLayout>

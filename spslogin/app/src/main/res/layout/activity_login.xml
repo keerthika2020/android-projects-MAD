@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/pinkaestheticbg">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="7dp"
+        android:text="STONE PAPER SCISSORS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#DB0F0A"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-medium"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="41dp"
+        android:text="WELCOME..."
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="535dp"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/edit_text_shape" />
+
+    <ImageView
+        android:id="@+id/un"
+        android:layout_width="85dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/tv2"
+        android:layout_alignEnd="@+id/tv2"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="16dp"
+        app:srcCompat="@drawable/ic_account_circle_black_24dp" />
+
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="47dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/un"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/ic_person_black_24dp" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/un"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/i1"
+        android:background="@drawable/edit_text_colored"
+        android:hint=" user name"
+        android:padding="6dp"
+        android:textColor="#E6161615" />
+
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="47dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/i1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/ic_lock_black_24dp" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e1"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="79dp"
+        android:layout_toRightOf="@+id/i2"
+        android:background="@drawable/edit_text_colored"
+        android:drawableRight="@drawable/ic_visibility_off_black_24dp"
+        android:hint=" password"
+        android:inputType="textPassword"
+        android:longClickable="false"
+        android:padding="6dp"
+        android:paddingRight="10dp"
+        android:textColor="#E60F0F0E" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="114dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/e2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/roundbutton"
+        android:text="PLAY WITH COMPUTER" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="114dp"
+        android:layout_height="106dp"
+        android:layout_below="@+id/b1"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="-67dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/roundbutton"
+        android:text="PLAY WITH OTHERS" />
+
+
+</RelativeLayout>
+
+</ScrollView>
